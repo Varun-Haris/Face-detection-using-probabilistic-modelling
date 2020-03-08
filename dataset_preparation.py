@@ -2,9 +2,9 @@ import os
 import glob
 import sys
 import numpy as np 
-#sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
-#import cv2
-#sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages')
+sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+import cv2
+sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages')
 from math import cos, sin, atan2, degrees, sqrt
 
 path = '/home/varunharis/Desktop/Computer Vision/Project 1/FDDB-folds/'
