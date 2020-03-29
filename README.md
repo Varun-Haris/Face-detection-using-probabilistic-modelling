@@ -11,3 +11,5 @@ The goal of this project was to develop and train a face classification model us
 # Face-detection-using-Adaboost-and-haar-feature-extraction
 
 This project was to build a face detection module by extracting Haar-like features from the image boost these features using the adaptive boosting algorithm (Adaboost). Adaboost is a congregation of weak classifiers (each having accuracy better than a random guess, greater than 0.5) to give one strong classifier. The strong classifier finally choses the class of the image by taking into account the weights and polarity (correct/incorrect classification).
+
+* Haar-like feature extraction --> For this I've used the code on the sklearn ofiicial website where they explain how these features can be extracted and drawn on an image.
